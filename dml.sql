@@ -1,3 +1,24 @@
+INSERT INTO Tipos (nombre_tipo)
+VALUES
+    ('Normal'),
+    ('Fuego'),
+    ('Agua'),
+    ('Eléctrico'),
+    ('Planta'),
+    ('Hielo'),
+    ('Lucha'),
+    ('Veneno'),
+    ('Tierra'),
+    ('Volador'),
+    ('Psíquico'),
+    ('Bicho'),
+    ('Roca'),
+    ('Fantasma'),
+    ('Dragón'),
+    ('Siniestro'),
+    ('Acero'),
+    ('Hada');
+
 INSERT INTO Regiones (region_id,nombre_region)
 VALUES
 ("Kanto"),
@@ -160,4 +181,109 @@ VALUES
 (442, 'Spiritomb', 50, 92, 35, 50, 4),    
 (407, 'Roserade', 70, 65, 90, 60, 4),       
 (448, 'Lucario', 110, 70, 110, 70, 4),      
-(349, 'Milotic', 60, 79, 81, 95, 3);        
+(349, 'Milotic', 60, 79, 81, 95, 3);
+
+INSERT INTO Pokemon_Tipos (pokemon_id, tipo_id)
+VALUES
+    -- Pikachu es de tipo Eléctrico
+    (1, 4),
+    -- Charizard es de tipo Fuego y Volador
+    (2, 2), 
+    (2, 10),
+    -- Bulbasaur es de tipo Planta y Veneno
+    (3, 5), 
+    (3, 8),
+    -- Squirtle es de tipo Agua
+    (4, 3),
+    -- Greninja es de tipo Agua y Siniestro
+    (5, 3), 
+    (5, 16),
+    -- Starmie es de tipo Agua y Psíquico
+    (6, 3), 
+    (6, 11),
+    -- Psyduck es de tipo Agua
+    (7, 3),
+    -- Gyarados es de tipo Agua y Volador
+    (8, 3), 
+    (8, 10),
+    -- Togepi es de tipo Hada
+    (9, 18),
+    -- Goldeen es de tipo Agua
+    (10, 3),
+    -- Onix es de tipo Roca y Tierra
+    (11, 13), 
+    (11, 9),
+    -- Geodude es de tipo Roca y Tierra
+    (12, 13), 
+    (12, 9),
+    -- Vulpix es de tipo Fuego
+    (13, 2),
+    -- Croagunk es de tipo Veneno y Lucha
+    (14, 8), 
+    (14, 7),
+    -- Steelix es de tipo Acero y Tierra
+    (15, 17), 
+    (15, 9),
+    -- Torchic es de tipo Fuego
+    (16, 2),
+    -- Beautifly es de tipo Bicho y Volador
+    (17, 12), 
+    (17, 10),
+    -- Piplup es de tipo Agua
+    (18, 3),
+    -- Buneary es de tipo Normal
+    (19, 1),
+    -- Pachirisu es de tipo Eléctrico
+    (20, 4),
+    -- Ambipom es de tipo Normal
+    (21, 1),
+    -- Porygon-Z es de tipo Normal
+    (22, 1),
+    -- Skitty es de tipo Normal
+    (23, 1),
+    -- Mudkip es de tipo Agua
+    (24, 3),
+    -- Snorlax es de tipo Normal
+    (25, 1),
+    -- Lapras es de tipo Agua y Hielo
+    (26, 3), 
+    (26, 6),
+    -- Butterfree es de tipo Bicho y Volador
+    (27, 12), 
+    (27, 10),
+    -- Charmander es de tipo Fuego
+    (28, 2),
+    -- Blastoise es de tipo Agua
+    (29, 3),
+    -- Arcanine es de tipo Fuego
+    (30, 2),
+    -- Gengar es de tipo Fantasma y Veneno
+    (31, 14), 
+    (31, 8),
+    -- Umbreon es de tipo Siniestro
+    (32, 16),
+    -- Pidgeot es de tipo Normal y Volador
+    (33, 1), 
+    (33, 10),
+    -- Fennekin es de tipo Fuego
+    (34, 2),
+    -- Pancham es de tipo Lucha
+    (35, 7),
+    -- Sylveon es de tipo Hada
+    (36, 18),
+    -- Absol es de tipo Siniestro
+    (37, 16),
+    -- Garchomp es de tipo Dragón y Tierra
+    (38, 15), 
+    (38, 9),
+    -- Spiritomb es de tipo Fantasma y Siniestro
+    (39, 14), 
+    (39, 16),
+    -- Roserade es de tipo Planta y Veneno
+    (40, 5), 
+    (40, 8),
+    -- Lucario es de tipo Lucha y Acero
+    (41, 7), 
+    (41, 17),
+    -- Milotic es de tipo Agua
+    (42, 3);
