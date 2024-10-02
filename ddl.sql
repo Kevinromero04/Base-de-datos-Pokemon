@@ -41,7 +41,8 @@ CREATE TABLE IF NOT EXISTS Pokemon(
     ataque_base INT,                               -- Estadística base de ataque
     defensa_base INT,                              -- Estadística base de defensa
     velocidad_base INT,                            -- Estadística base de velocidad
-    hp_base INT,                                   -- Estadística base de puntos de salud (HP)
+    hp_base INT,
+    evolucion BOOLEAN,                                   -- Estadística base de puntos de salud (HP)
     generacion INT,
 );
 
@@ -139,21 +140,12 @@ CREATE TABLE IF NOT EXISTS Gimnasios (
     FOREIGN KEY (tipo_id) REFERENCES Tipos(tipo_id)  -- Clave foránea que referencia a Tipos
 );
 
--- Tabla de Evoluciones
-CREATE TABLE IF NOT EXISTS Evoluciones (
-    evolucion_id INT AUTO_INCREMENT PRIMARY KEY,  -- ID único para cada evolución
-    pokemon_origen_id INT,  -- ID del Pokémon de origen
-    pokemon_evolucionado_id INT,  -- ID del Pokémon evolucionado
-    condicion_evolucion VARCHAR(100) NOT NULL,  -- Condición necesaria para la evolución (nivel, piedra, amistad, etc.)
-    FOREIGN KEY (pokemon_origen_id) REFERENCES Pokemon(Id_pokemon),  -- Clave foránea que referencia al Pokémon de origen
-    FOREIGN KEY (pokemon_evolucionado_id) REFERENCES Pokemon(Id_pokemon)  -- Clave foránea que referencia al Pokémon evolucionado
-);
 
 -- Tabla de Objetos
 CREATE TABLE IF NOT EXISTS Objetos (
     objeto_id INT AUTO_INCREMENT PRIMARY KEY,  -- ID único para cada objeto
     nombre_objeto VARCHAR(100) NOT NULL,  -- Nombre del objeto (e.g., Poción, Baya, Piedra Evolutiva)
-tipo_objeto VARCHAR(50) NOT NULL,  -- Tipo del objeto (e.g., Poción, Baya, Piedra Evolutiva)
+    tipo_objeto VARCHAR(50) NOT NULL,  -- Tipo del objeto (e.g., Poción, Baya, Piedra Evolutiva)
     efecto TEXT NOT NULL  -- Descripción del efecto del objeto
 );
 
