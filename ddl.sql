@@ -42,8 +42,8 @@ CREATE TABLE IF NOT EXISTS Pokemon(
     defensa_base INT,                              -- Estadística base de defensa
     velocidad_base INT,                            -- Estadística base de velocidad
     hp_base INT,
-    evolucion BOOLEAN,                                   -- Estadística base de puntos de salud (HP)
     generacion INT,
+    evolucion BOOLEAN
 );
 
 CREATE TABLE IF NOT EXISTS Entrenadores_Pokemon(
@@ -51,7 +51,7 @@ CREATE TABLE IF NOT EXISTS Entrenadores_Pokemon(
     entrenador_id INT,
     PRIMARY KEY (Id_pokemon,entrenador_id),
     FOREIGN KEY (Id_pokemon) REFERENCES Pokemon(Id_pokemon),
-    FOREIGN KEY (entrenador_id) REFERENCES Entrenadores(entrenador_id);
+    FOREIGN KEY (entrenador_id) REFERENCES Entrenadores(entrenador_id)
 );
 
 -- POKEMONES Y TIPOS
@@ -166,6 +166,7 @@ CREATE TABLE IF NOT EXISTS Peliculas (
     duracion INT NOT NULL,  -- Duración de la película en minutos
     personajes_principales TEXT NOT NULL  -- Personaje(s) principal(es) de la película
 );
+
 CREATE TABLE IF NOT EXISTS Entrenadores_Peliculas (
 pelicula_id INT,
 entrenador_id INT,
