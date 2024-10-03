@@ -1,23 +1,24 @@
 INSERT INTO Tipos (nombre_tipo)
 VALUES
-    ('Normal'),
-    ('Fuego'),
-    ('Agua'),
-    ('Eléctrico'),
-    ('Planta'),
-    ('Hielo'),
-    ('Lucha'),
-    ('Veneno'),
-    ('Tierra'),
-    ('Volador'),
-    ('Psíquico'),
-    ('Bicho'),
-    ('Roca'),
-    ('Fantasma'),
-    ('Dragón'),
-    ('Siniestro'),
-    ('Acero'),
-    ('Hada');
+    ('Normal'), -- 1
+    ('Fuego'), -- 2
+    ('Agua'), -- 3
+    ('Eléctrico'), -- 4
+    ('Planta'), -- 5
+    ('Hielo'), -- 6
+    ('Lucha'), -- 7
+    ('Veneno'),-- 8
+    ('Tierra'),-- 9
+    ('Volador'),-- 10
+    ('Psíquico'),-- 11
+    ('Bicho'),-- 12
+    ('Roca'),-- 13
+    ('Fantasma'),-- 14
+    ('Dragón'),-- 15
+    ('Siniestro'),-- 16
+    ('Acero'),-- 17
+    ('Hada'),-- 18
+    ('NULO'); -- 19
 
 
 INSERT INTO Objetos (nombre_objeto, tipo_objeto, efecto)
@@ -73,7 +74,7 @@ VALUES
     ('Super Ball', 'Poké Ball', 'Mejora la tasa de captura en comparación con una Poké Ball.'),
     ('Ultra Ball', 'Poké Ball', 'Mayor tasa de captura que la Super Ball.'),
     ('Master Ball', 'Poké Ball', 'Captura cualquier Pokémon sin fallar.');
-INSERT INTO Regiones (region_id,nombre_region)
+INSERT INTO Regiones (nombre_region)
 VALUES
 ("Kanto"),
 ("Johto"),
@@ -207,48 +208,48 @@ VALUES
 
 INSERT INTO Pokemon (Numero_poquedex, Nombre, ataque_base, defensa_base, velocidad_base, hp_base, generacion, evolucion) 
 VALUES
-(25, 'Pikachu', 55, 40, 90, 35, 1, TRUE),         -- Pikachu evoluciona a Raichu
-(6, 'Charizard', 84, 78, 100, 78, 1, FALSE),      -- Charizard es la forma final
-(1, 'Bulbasaur', 49, 49, 45, 45, 1, TRUE),        -- Bulbasaur evoluciona a Ivysaur
-(7, 'Squirtle', 48, 65, 43, 44, 1, TRUE),         -- Squirtle evoluciona a Wartortle
-(658, 'Greninja', 110, 75, 122, 72, 6, FALSE),    -- Greninja es la forma final
-(121, 'Starmie', 65, 70, 97, 60, 1, FALSE),       -- Starmie es la forma final
-(54, 'Psyduck', 52, 48, 55, 50, 1, TRUE),         -- Psyduck evoluciona a Golduck
-(130, 'Gyarados', 125, 79, 81, 95, 1, FALSE),     -- Gyarados es la forma final
-(175, 'Togepi', 40, 40, 20, 35, 2, TRUE),         -- Togepi evoluciona a Togetic
-(118, 'Goldeen', 30, 55, 52, 45, 1, TRUE),        -- Goldeen evoluciona a Seaking
-(95, 'Onix', 45, 160, 30, 35, 1, TRUE),           -- Onix evoluciona a Steelix
-(74, 'Geodude', 80, 100, 30, 40, 1, TRUE),        -- Geodude evoluciona a Graveler
-(37, 'Vulpix', 60, 50, 65, 38, 1, TRUE),          -- Vulpix evoluciona a Ninetales
-(453, 'Croagunk', 61, 40, 50, 70, 4, TRUE),       -- Croagunk evoluciona a Toxicroak
-(208, 'Steelix', 75, 100, 30, 75, 2, FALSE),      -- Steelix es la forma final
-(256, 'Torchic', 120, 70, 80, 80, 3, TRUE),       -- Torchic evoluciona a Combusken
-(267, 'Beautifly', 70, 50, 65, 60, 3, FALSE),     -- Beautifly es la forma final
-(393, 'Piplup', 50, 40, 56, 64, 4, TRUE),         -- Piplup evoluciona a Prinplup
-(427, 'Buneary', 50, 60, 60, 60, 4, TRUE),        -- Buneary evoluciona a Lopunny
-(417, 'Pachirisu', 60, 40, 67, 60, 4, FALSE),     -- Pachirisu no evoluciona
-(424, 'Ambipom', 100, 60, 115, 75, 4, FALSE),     -- Ambipom es la forma final
-(474, 'Porygon-Z', 80, 70, 40, 85, 4, FALSE),     -- Porygon-Z es la forma final
-(38, 'Skitty', 60, 55, 40, 90, 1, TRUE),          -- Skitty evoluciona a Delcatty
-(258, 'Mudkip', 70, 70, 50, 50, 3, TRUE),         -- Mudkip evoluciona a Marshtomp
-(143, 'Snorlax', 110, 70, 30, 160, 1, FALSE),     -- Snorlax es la forma final
-(131, 'Lapras', 130, 80, 60, 130, 1, FALSE),      -- Lapras no evoluciona
-(12, 'Butterfree', 45, 50, 70, 60, 1, FALSE),     -- Butterfree es la forma final
-(4, 'Charmander', 52, 43, 60, 39, 1, TRUE),       -- Charmander evoluciona a Charmeleon
-(158, 'Blastoise', 83, 100, 78, 59, 2, FALSE),    -- Blastoise es la forma final
-(59, 'Arcanine', 110, 80, 95, 65, 1, FALSE),      -- Arcanine es la forma final
-(94, 'Gengar', 65, 60, 110, 60, 1, FALSE),        -- Gengar es la forma final
-(197, 'Umbreon', 95, 110, 65, 95, 2, FALSE),      -- Umbreon es la forma final
-(18, 'Pidgeot', 80, 75, 101, 83, 1, FALSE),       -- Pidgeot es la forma final
-(655, 'Fennekin', 59, 90, 104, 60, 6, TRUE),      -- Fennekin evoluciona a Braixen
-(674, 'Pancham', 60, 60, 50, 67, 6, TRUE),        -- Pancham evoluciona a Pangoro
-(700, 'Sylveon', 65, 65, 60, 95, 6, FALSE),       -- Sylveon es la forma final
-(359, 'Absol', 130, 75, 75, 65, 3, FALSE),        -- Absol no evoluciona
-(445, 'Garchomp', 130, 95, 102, 108, 4, FALSE),   -- Garchomp es la forma final
-(442, 'Spiritomb', 50, 92, 35, 50, 4, FALSE),     -- Spiritomb no evoluciona
-(407, 'Roserade', 70, 65, 90, 60, 4, FALSE),      -- Roserade es la forma final
-(448, 'Lucario', 110, 70, 110, 70, 4, FALSE),     -- Lucario es la forma final
-(349, 'Milotic', 60, 79, 81, 95, 3, FALSE);       -- Milotic es la forma final
+(25, 'Pikachu', 55, 40, 90, 35, 1, TRUE),         -- 1Pikachu evoluciona a Raichu
+(6, 'Charizard', 84, 78, 100, 78, 1, FALSE),      -- 2Charizard es la forma final
+(1, 'Bulbasaur', 49, 49, 45, 45, 1, TRUE),        -- 3Bulbasaur evoluciona a Ivysaur
+(7, 'Squirtle', 48, 65, 43, 44, 1, TRUE),         -- 4Squirtle evoluciona a Wartortle
+(658, 'Greninja', 110, 75, 122, 72, 6, FALSE),    -- 5Greninja es la forma final
+(121, 'Starmie', 65, 70, 97, 60, 1, FALSE),       -- 6Starmie es la forma final
+(54, 'Psyduck', 52, 48, 55, 50, 1, TRUE),         -- 7Psyduck evoluciona a Golduck
+(130, 'Gyarados', 125, 79, 81, 95, 1, FALSE),     -- 8Gyarados es la forma final
+(175, 'Togepi', 40, 40, 20, 35, 2, TRUE),         -- 9Togepi evoluciona a Togetic
+(118, 'Goldeen', 30, 55, 52, 45, 1, TRUE),        -- 10Goldeen evoluciona a Seaking
+(95, 'Onix', 45, 160, 30, 35, 1, TRUE),           -- 11Onix evoluciona a Steelix
+(74, 'Geodude', 80, 100, 30, 40, 1, TRUE),        -- 12Geodude evoluciona a Graveler
+(37, 'Vulpix', 60, 50, 65, 38, 1, TRUE),          -- 13Vulpix evoluciona a Ninetales
+(453, 'Croagunk', 61, 40, 50, 70, 4, TRUE),       -- 14Croagunk evoluciona a Toxicroak
+(208, 'Steelix', 75, 100, 30, 75, 2, FALSE),      -- 15Steelix es la forma final
+(256, 'Torchic', 120, 70, 80, 80, 3, TRUE),       -- 16Torchic evoluciona a Combusken
+(267, 'Beautifly', 70, 50, 65, 60, 3, FALSE),     -- 17Beautifly es la forma final
+(393, 'Piplup', 50, 40, 56, 64, 4, TRUE),         -- 18Piplup evoluciona a Prinplup
+(427, 'Buneary', 50, 60, 60, 60, 4, TRUE),        -- 19Buneary evoluciona a Lopunny
+(417, 'Pachirisu', 60, 40, 67, 60, 4, FALSE),     -- 20Pachirisu no evoluciona
+(424, 'Ambipom', 100, 60, 115, 75, 4, FALSE),     -- 21Ambipom es la forma final
+(474, 'Porygon-Z', 80, 70, 40, 85, 4, FALSE),     -- 22Porygon-Z es la forma final
+(38, 'Skitty', 60, 55, 40, 90, 1, TRUE),          -- 23Skitty evoluciona a Delcatty
+(258, 'Mudkip', 70, 70, 50, 50, 3, TRUE),         -- 24Mudkip evoluciona a Marshtomp
+(143, 'Snorlax', 110, 70, 30, 160, 1, FALSE),     -- 25Snorlax es la forma final
+(131, 'Lapras', 130, 80, 60, 130, 1, FALSE),      -- 26Lapras no evoluciona
+(12, 'Butterfree', 45, 50, 70, 60, 1, FALSE),     -- 27Butterfree es la forma final
+(4, 'Charmander', 52, 43, 60, 39, 1, TRUE),       -- 28Charmander evoluciona a Charmeleon
+(158, 'Blastoise', 83, 100, 78, 59, 2, FALSE),    -- 29Blastoise es la forma final
+(59, 'Arcanine', 110, 80, 95, 65, 1, FALSE),      -- 30Arcanine es la forma final
+(94, 'Gengar', 65, 60, 110, 60, 1, FALSE),        -- 31Gengar es la forma final
+(197, 'Umbreon', 95, 110, 65, 95, 2, FALSE),      -- 32Umbreon es la forma final
+(18, 'Pidgeot', 80, 75, 101, 83, 1, FALSE),       -- 33Pidgeot es la forma final
+(655, 'Fennekin', 59, 90, 104, 60, 6, TRUE),      -- 34Fennekin evoluciona a Braixen
+(674, 'Pancham', 60, 60, 50, 67, 6, TRUE),        -- 35Pancham evoluciona a Pangoro
+(700, 'Sylveon', 65, 65, 60, 95, 6, FALSE),       -- 36Sylveon es la forma final
+(359, 'Absol', 130, 75, 75, 65, 3, FALSE),        -- 37Absol no evoluciona
+(445, 'Garchomp', 130, 95, 102, 108, 4, FALSE),   -- 38Garchomp es la forma final
+(442, 'Spiritomb', 50, 92, 35, 50, 4, FALSE),     -- 39Spiritomb no evoluciona
+(407, 'Roserade', 70, 65, 90, 60, 4, FALSE),      -- 40Roserade es la forma final
+(448, 'Lucario', 110, 70, 110, 70, 4, FALSE),     -- 41Lucario es la forma final
+(349, 'Milotic', 60, 79, 81, 95, 3, FALSE);       -- 42Milotic es la forma final
 
 INSERT INTO Habilidades (nombre_habilidad, descripcion_efecto)
 VALUES
@@ -532,56 +533,56 @@ VALUES
 (2, 1),  -- Charizard
 (3, 1),  -- Bulbasaur
 (4, 1),  -- Squirtle
-(143, 1), -- Snorlax
+(25, 1), -- Snorlax
 -- Misty (Kasumi) (Entrenadora 2)
-(121, 2), -- Starmie
-(54, 2),  -- Psyduck
-(118, 2), -- Goldeen
+(6, 2), -- Starmie
+(7, 2),  -- Psyduck
+(10, 2), -- Goldeen
 -- Brock (Takeshi) (Entrenador 3)
-(95, 3),  -- Onix
-(74, 3),  -- Geodude
-(130, 3), -- Gyarados (anime)
+(11, 3),  -- Onix
+(12, 3),  -- Geodude
+(8, 3), -- Gyarados (anime)
 -- Giovanni (Entrenador 4)
-(59, 4),  -- Arcanine
-(94, 4),  -- Gengar
-(130, 4), -- Gyarados
+(30, 4),  -- Arcanine
+(31, 4),  -- Gengar
+(8, 4), -- Gyarados
 -- May (Haruka) (Entrenadora 5)
-(256, 5), -- Torchic
-(267, 5), -- Beautifly
-(258, 5), -- Mudkip
+(16, 5), -- Torchic
+(17, 5), -- Beautifly
+(24, 5), -- Mudkip
 -- Dawn (Hikari) (Entrenadora 6)
-(393, 6), -- Piplup
-(417, 6), -- Pachirisu
-(427, 6), -- Buneary
+(18, 6), -- Piplup
+(20, 6), -- Pachirisu
+(19, 6), -- Buneary
 -- Serena (Entrenadora 7)
-(700, 7), -- Sylveon
-(655, 7), -- Fennekin
+(36, 7), -- Sylveon
+(34, 7), -- Fennekin
 -- Cynthia (Entrenadora 8)
-(445, 8), -- Garchomp
-(442, 8), -- Spiritomb
-(448, 8), -- Lucario
+(38, 8), -- Garchomp
+(39, 8), -- Spiritomb
+(41, 8), -- Lucario
 -- Leon (Entrenador 9)
-(6, 9),   -- Charizard
-(18, 9),  -- Pidgeot
+(2, 9),   -- Charizard
+(33, 9),  -- Pidgeot
 -- Roxie (Entrenadora 10)
-(453, 10), -- Croagunk
+(14, 10), -- Croagunk
 -- Clair (Entrenadora 11)
-(130, 11), -- Gyarados
-(208, 11), -- Steelix
+(8, 11), -- Gyarados
+(15, 11), -- Steelix
 -- Korrina (Entrenadora 12)
-(448, 12), -- Lucario
+(41, 12), -- Lucario
 -- Alain (Entrenador 13)
-(6, 13),   -- Charizard (Mega Charizard X)
+(2, 13),   -- Charizard (Mega Charizard X)
 -- N (Entrenador 14)
-(474, 14), -- Porygon-Z
+(22, 14), -- Porygon-Z
 -- Lusamine (Entrenadora 15)
-(349, 15); -- Milotic
+(42, 15); -- Milotic
 
 
 INSERT INTO Fortalezas (tipo_id, tipo_fuerte_contra)
 VALUES
 -- Normal
-(1, 0), -- No tiene fortalezas
+(1, NULL), -- No tiene fortalezas
 -- Fuego
 (2, 5), -- Fuerte contra Planta
 (2, 6), -- Fuerte contra Hielo
@@ -1144,5 +1145,5 @@ VALUES
     (8, 8),  -- 'Pokémon: Genesect y el despertar de una leyenda' con Cynthia
     (7, 8),  -- 'Pokémon: Lucario y el misterio de Mew' con Cynthia
     -- Leon como campeón tiene su aparición en películas recientes
-    (10, 9); -- 'Pokémon: El destino de un maestro' con Leon
+    (10, 9), -- 'Pokémon: El destino de un maestro' con Leon
     (7, 13);  -- 'Pokémon: Lucario y el misterio de Mew' con Alain
