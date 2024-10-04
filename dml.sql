@@ -1065,37 +1065,30 @@ VALUES
     (1, 1),  
     (2, 1),  
     (3, 1),  
-    (4, 1),  -- 'Pokémon: El viaje de los héroes' con Ash Ketchum
-    (5, 1),  -- 'Pokémon: Mewtwo contraataca' con Asum
-    (6, 1),  -- 'Pokémon: La historia de Mewtwo' contchum
-    (7, 1),  -- 'Pokémon: Lucario y el misterio de M Ash Ketchum
-    (8, 1),  -- 'Pokémon: Genesect y el despertar deyenda' con Ash Ketchum
-    (9, 1),  -- 'Pokémon: El origen de Mewtwo' con Ahum
-    (10, 1), -- 'Pokémon: El destino de un maestro'  Ketchum
-    (1, 2),  -- 'Pokémon: La Película' co
-    (4, 2),  -- 'Pokémon: El viaje de los héroes' co
-    (2, 2),  -- 'Pokémon: El poder de todos' 
-    (5, 2),  -- 'Pokémon: Mewtwo contraataca' 
-    -- Brock también tiene presencia en 
-    (1, 3),  -- 'Pokémon: La Película' 
-    (2, 3),  -- 'Pokémon: El poder de todos' 
-    (5, 3),  -- 'Pokémon: Mewtwo contraataca' 
-    (7, 3),  -- 'Pokémon: Lucario y el misterio de Mew' 
-    -- Giovanni y Mewtwo tienen una relación importante eelículas
-    (5, 4),  -- 'Pokémon: Mewtwo contraataca' con
-    (6, 4),  -- 'Pokémon: La historia de Mewtwo' con
-    (9, 4),  -- 'Pokémon: El origen de Mewtwo' con
-    (2, 4),  -- 'Pokémon: El poder de todos' con
-    -- May aparece en varias 
-    (4, 5),  -- 'Pokémon: El viaje de los héroes
-    -- Dawn aparece en varias películas donde comparte pro con Ash
-    (6, 6),  -- 'Pokémon: La historia de Mewtwo'
-    (9, 6),  -- 'Pokémon: El origen de Mewtwo'
-    -- Serena es otra compañera de Ash en películas más
-    (7, 7),  -- 'Pokémon: Lucario y el misterio de Mew' c
-    -- Cynthia es una de las protagonistas en películas 
-    (8, 8),  -- 'Pokémon: Genesect y el despertar de una con Cynthia
-    (7, 8),  -- 'Pokémon: Lucario y el misterio de Mew' ca
-    -- Leon como campeón tiene su aparición en películas 
-    (10, 9), -- 'Pokémon: El destino de un maestro'
-    (7, 13);  -- 'Pokémon: Lucario y el misterio de Mew' 
+    (4, 1),  
+    (5, 1),  
+    (6, 1),  
+    (7, 1),  
+    (8, 1),  
+    (9, 1),  
+    (10, 1), 
+    (1, 2),  
+    (4, 2), 
+    (2, 2),  
+    (5, 2),  
+    (1, 3),  
+    (2, 3),  
+    (5, 3),   
+    (7, 3),  
+    (5, 4),  
+    (6, 4),  
+    (9, 4),  
+    (2, 4),  
+    (4, 5),  
+    (6, 6),  
+    (9, 6),  
+    (7, 7),  
+    (8, 8),  
+    (7, 8),  
+    (10, 9), 
+    (7, 13); 
