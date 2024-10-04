@@ -208,126 +208,135 @@ VALUES
 
 INSERT INTO Pokemon (Numero_poquedex, Nombre, ataque_base, defensa_base, velocidad_base, hp_base, generacion, evolucion) 
 VALUES
-(25, 'Pikachu', 55, 40, 90, 35, 1, TRUE),         -- 1Pikachu evoluciona a Raichu
-(6, 'Charizard', 84, 78, 100, 78, 1, FALSE),      -- 2Charizard es la forma final
-(1, 'Bulbasaur', 49, 49, 45, 45, 1, TRUE),        -- 3Bulbasaur evoluciona a Ivysaur
-(7, 'Squirtle', 48, 65, 43, 44, 1, TRUE),         -- 4Squirtle evoluciona a Wartortle
-(658, 'Greninja', 110, 75, 122, 72, 6, FALSE),    -- 5Greninja es la forma final
-(121, 'Starmie', 65, 70, 97, 60, 1, FALSE),       -- 6Starmie es la forma final
-(54, 'Psyduck', 52, 48, 55, 50, 1, TRUE),         -- 7Psyduck evoluciona a Golduck
-(130, 'Gyarados', 125, 79, 81, 95, 1, FALSE),     -- 8Gyarados es la forma final
-(175, 'Togepi', 40, 40, 20, 35, 2, TRUE),         -- 9Togepi evoluciona a Togetic
-(118, 'Goldeen', 30, 55, 52, 45, 1, TRUE),        -- 10Goldeen evoluciona a Seaking
-(95, 'Onix', 45, 160, 30, 35, 1, TRUE),           -- 11Onix evoluciona a Steelix
-(74, 'Geodude', 80, 100, 30, 40, 1, TRUE),        -- 12Geodude evoluciona a Graveler
-(37, 'Vulpix', 60, 50, 65, 38, 1, TRUE),          -- 13Vulpix evoluciona a Ninetales
-(453, 'Croagunk', 61, 40, 50, 70, 4, TRUE),       -- 14Croagunk evoluciona a Toxicroak
-(208, 'Steelix', 75, 100, 30, 75, 2, FALSE),      -- 15Steelix es la forma final
-(256, 'Torchic', 120, 70, 80, 80, 3, TRUE),       -- 16Torchic evoluciona a Combusken
-(267, 'Beautifly', 70, 50, 65, 60, 3, FALSE),     -- 17Beautifly es la forma final
-(393, 'Piplup', 50, 40, 56, 64, 4, TRUE),         -- 18Piplup evoluciona a Prinplup
-(427, 'Buneary', 50, 60, 60, 60, 4, TRUE),        -- 19Buneary evoluciona a Lopunny
-(417, 'Pachirisu', 60, 40, 67, 60, 4, FALSE),     -- 20Pachirisu no evoluciona
-(424, 'Ambipom', 100, 60, 115, 75, 4, FALSE),     -- 21Ambipom es la forma final
-(474, 'Porygon-Z', 80, 70, 40, 85, 4, FALSE),     -- 22Porygon-Z es la forma final
-(38, 'Skitty', 60, 55, 40, 90, 1, TRUE),          -- 23Skitty evoluciona a Delcatty
-(258, 'Mudkip', 70, 70, 50, 50, 3, TRUE),         -- 24Mudkip evoluciona a Marshtomp
-(143, 'Snorlax', 110, 70, 30, 160, 1, FALSE),     -- 25Snorlax es la forma final
-(131, 'Lapras', 130, 80, 60, 130, 1, FALSE),      -- 26Lapras no evoluciona
-(12, 'Butterfree', 45, 50, 70, 60, 1, FALSE),     -- 27Butterfree es la forma final
-(4, 'Charmander', 52, 43, 60, 39, 1, TRUE),       -- 28Charmander evoluciona a Charmeleon
-(158, 'Blastoise', 83, 100, 78, 59, 2, FALSE),    -- 29Blastoise es la forma final
-(59, 'Arcanine', 110, 80, 95, 65, 1, FALSE),      -- 30Arcanine es la forma final
-(94, 'Gengar', 65, 60, 110, 60, 1, FALSE),        -- 31Gengar es la forma final
-(197, 'Umbreon', 95, 110, 65, 95, 2, FALSE),      -- 32Umbreon es la forma final
-(18, 'Pidgeot', 80, 75, 101, 83, 1, FALSE),       -- 33Pidgeot es la forma final
-(655, 'Fennekin', 59, 90, 104, 60, 6, TRUE),      -- 34Fennekin evoluciona a Braixen
-(674, 'Pancham', 60, 60, 50, 67, 6, TRUE),        -- 35Pancham evoluciona a Pangoro
-(700, 'Sylveon', 65, 65, 60, 95, 6, FALSE),       -- 36Sylveon es la forma final
-(359, 'Absol', 130, 75, 75, 65, 3, FALSE),        -- 37Absol no evoluciona
-(445, 'Garchomp', 130, 95, 102, 108, 4, FALSE),   -- 38Garchomp es la forma final
-(442, 'Spiritomb', 50, 92, 35, 50, 4, FALSE),     -- 39Spiritomb no evoluciona
-(407, 'Roserade', 70, 65, 90, 60, 4, FALSE),      -- 40Roserade es la forma final
-(448, 'Lucario', 110, 70, 110, 70, 4, FALSE),     -- 41Lucario es la forma final
-(349, 'Milotic', 60, 79, 81, 95, 3, FALSE);       -- 42Milotic es la forma final
+(25, 'Pikachu', 55, 40, 90, 35, 1, TRUE),         -- 1
+(6, 'Charizard', 84, 78, 100, 78, 1, FALSE),      -- 2
+(1, 'Bulbasaur', 49, 49, 45, 45, 1, TRUE),        -- 3
+(7, 'Squirtle', 48, 65, 43, 44, 1, TRUE),         -- 4
+(658, 'Greninja', 110, 75, 122, 72, 6, FALSE),    -- 5
+(121, 'Starmie', 65, 70, 97, 60, 1, FALSE),       -- 6
+(54, 'Psyduck', 52, 48, 55, 50, 1, TRUE),         -- 7
+(130, 'Gyarados', 125, 79, 81, 95, 1, FALSE),     -- 8
+(175, 'Togepi', 40, 40, 20, 35, 2, TRUE),         -- 9
+(118, 'Goldeen', 30, 55, 52, 45, 1, TRUE),        -- 10
+(95, 'Onix', 45, 160, 30, 35, 1, TRUE),           -- 11
+(74, 'Geodude', 80, 100, 30, 40, 1, TRUE),        -- 12
+(37, 'Vulpix', 60, 50, 65, 38, 1, TRUE),          -- 13
+(453, 'Croagunk', 61, 40, 50, 70, 4, TRUE),       -- 14
+(208, 'Steelix', 75, 100, 30, 75, 2, FALSE),      -- 15
+(256, 'Torchic', 120, 70, 80, 80, 3, TRUE),       -- 16
+(267, 'Beautifly', 70, 50, 65, 60, 3, FALSE),     -- 17
+(393, 'Piplup', 50, 40, 56, 64, 4, TRUE),         -- 18
+(427, 'Buneary', 50, 60, 60, 60, 4, TRUE),        -- 19
+(417, 'Pachirisu', 60, 40, 67, 60, 4, FALSE),     -- 20
+(424, 'Ambipom', 100, 60, 115, 75, 4, FALSE),     -- 21
+(474, 'Porygon-Z', 80, 70, 40, 85, 4, FALSE),     -- 22
+(38, 'Skitty', 60, 55, 40, 90, 1, TRUE),          -- 23
+(258, 'Mudkip', 70, 70, 50, 50, 3, TRUE),         -- 24
+(143, 'Snorlax', 110, 70, 30, 160, 1, FALSE),     -- 25
+(131, 'Lapras', 130, 80, 60, 130, 1, FALSE),      -- 26
+(12, 'Butterfree', 45, 50, 70, 60, 1, FALSE),     -- 27
+(4, 'Charmander', 52, 43, 60, 39, 1, TRUE),       -- 28
+(158, 'Blastoise', 83, 100, 78, 59, 2, FALSE),    -- 29
+(59, 'Arcanine', 110, 80, 95, 65, 1, FALSE),      -- 30
+(94, 'Gengar', 65, 60, 110, 60, 1, FALSE),        -- 31
+(197, 'Umbreon', 95, 110, 65, 95, 2, FALSE),      -- 32
+(18, 'Pidgeot', 80, 75, 101, 83, 1, FALSE),       -- 33
+(655, 'Fennekin', 59, 90, 104, 60, 6, TRUE),      -- 34
+(674, 'Pancham', 60, 60, 50, 67, 6, TRUE),        -- 35
+(700, 'Sylveon', 65, 65, 60, 95, 6, FALSE),       -- 36
+(359, 'Absol', 130, 75, 75, 65, 3, FALSE),        -- 37
+(445, 'Garchomp', 130, 95, 102, 108, 4, FALSE),   -- 38
+(442, 'Spiritomb', 50, 92, 35, 50, 4, FALSE),     -- 39
+(407, 'Roserade', 70, 65, 90, 60, 4, FALSE),      -- 40
+(448, 'Lucario', 110, 70, 110, 70, 4, FALSE),     -- 41
+(349, 'Milotic', 60, 79, 81, 95, 3, FALSE);       -- 42
 
 INSERT INTO Habilidades (nombre_habilidad, descripcion_efecto)
 VALUES
-    ('Pararrayos', 'Atrae ataques de tipo Eléctrico y aumenta su Ataque Especial.'), --1
-    ('Mar Llamas', 'Potencia los ataques de tipo Fuego cuando el Pokémon tiene poca salud.'), --2
-    ('Espesura', 'Potencia los ataques de tipo Planta cuando el Pokémon tiene poca salud.'), --3
-    ('Torrente', 'Potencia los ataques de tipo Agua cuando el Pokémon tiene poca salud.'), --4
-    ('Mutatipo', 'Cambia el tipo del Pokémon al del último movimiento que usó.'), --5
-    ('Cura Natural', 'Cura los problemas de estado del Pokémon al ser retirado del combate.'), --6
-    ('Despiste', 'Evita que el Pokémon sea afectado por movimientos que inducen el enamoramiento.'), --7
-    ('Intimidación', 'Baja el Ataque del oponente al entrar en combate.'), --8
-    ('Gran Encanto', 'Tiene una probabilidad de causar enamoramiento al rival si es golpeado con un ataque de contacto.'), --9
-    ('Nado Rápido', 'Duplica la velocidad del Pokémon bajo la lluvia.'), --10
-    ('Robustez', 'Evita que el Pokémon sea derrotado de un solo golpe.'), --11
-    ('Absorber Agua', 'Recupera HP si es golpeado por un ataque de tipo Agua.'), --12
-    ('Sequía', 'Invoca sol intenso al entrar en combate.'),--13
-    ('Llovizna', 'Invoca lluvia al entrar en combate.'),--14
-    ('Poder Solar', 'Aumenta el Ataque Especial en clima soleado, pero reduce el HP.'), --15
-    ('Medio Compensar', 'Si las estadísticas del Pokémon bajan, sube su Ataque.'), --16
-    ('Garra Dura', 'Aumenta la potencia de los movimientos que hacen contacto físico.'), --17
-    ('Nado Rápido', 'Aumenta la velocidad del Pokémon cuando llueve.'), --18
-    ('Sebo', 'Reduce el daño de ataques de tipo Fuego y Hielo.'), --19
-    ('Absorber Agua', 'Restaura HP si el Pokémon es golpeado por un ataque de tipo Agua.'), --20
-    ('Corte Fuerte', 'Aumenta el poder de los movimientos de corte.'), --21
-    ('Robustez', 'Evita que el Pokémon sea derrotado de un solo golpe.'), --22
-    ('Cuerpo Puro', 'Evita que las estadísticas del Pokémon sean reducidas por movimientos del oponente.'), --23
-    ('Cura Natural', 'Cura sus problemas de estado al ser retirado del combate.'), --24
-    ('Sincronía', 'Pasa los problemas de estado del Pokémon al rival.'), --25
-    ('Flaqueza', 'Aumenta el Ataque si el Pokémon recibe daño de un ataque fuerte.'), --26
-    ('Manto Frondoso', 'Reduce la precisión de los ataques en clima soleado.'); --27
+    ('Pararrayos', 'Atrae ataques de tipo Eléctrico y aumenta su Ataque Especial.'), -- 1
+    ('Mar Llamas', 'Potencia los ataques de tipo Fuego cuando el Pokémon tiene poca salud.'), -- 2
+    ('Espesura', 'Potencia los ataques de tipo Planta cuando el Pokémon tiene poca salud.'), -- 3
+    ('Torrente', 'Potencia los ataques de tipo Agua cuando el Pokémon tiene poca salud.'), -- 4
+    ('Mutatipo', 'Cambia el tipo del Pokémon al del último movimiento que usó.'), -- 5
+    ('Cura Natural', 'Cura los problemas de estado del Pokémon al ser retirado del combate.'), -- 6
+    ('Despiste', 'Evita que el Pokémon sea afectado por movimientos que inducen el enamoramiento.'), -- 7
+    ('Intimidación', 'Baja el Ataque del oponente al entrar en combate.'), -- 8
+    ('Gran Encanto', 'Tiene una probabilidad de causar enamoramiento al rival si es golpeado con un ataque de contacto.'), -- 9
+    ('Nado Rápido', 'Duplica la velocidad del Pokémon bajo la lluvia.'), -- 10
+    ('Robustez', 'Evita que el Pokémon sea derrotado de un solo golpe.'), -- 11
+    ('Absorber Agua', 'Recupera HP si es golpeado por un ataque de tipo Agua.'), -- 12
+    ('Sequía', 'Invoca sol intenso al entrar en combate.'),-- 13
+    ('Llovizna', 'Invoca lluvia al entrar en combate.'),-- 14
+    ('Poder Solar', 'Aumenta el Ataque Especial en clima soleado, pero reduce el HP.'), -- 15
+    ('Medio Compensar', 'Si las estadísticas del Pokémon bajan, sube su Ataque.'), -- 16
+    ('Garra Dura', 'Aumenta la potencia de los movimientos que hacen contacto físico.'), -- 17
+    ('Nado Rápido', 'Aumenta la velocidad del Pokémon cuando llueve.'), -- 18
+    ('Sebo', 'Reduce el daño de ataques de tipo Fuego y Hielo.'), -- 19
+    ('Absorber Agua', 'Restaura HP si el Pokémon es golpeado por un ataque de tipo Agua.'), -- 20
+    ('Corte Fuerte', 'Aumenta el poder de los movimientos de corte.'), -- 21
+    ('Robustez', 'Evita que el Pokémon sea derrotado de un solo golpe.'), -- 22
+    ('Cuerpo Puro', 'Evita que las estadísticas del Pokémon sean reducidas por movimientos del oponente.'), -- 23
+    ('Cura Natural', 'Cura sus problemas de estado al ser retirado del combate.'), -- 24
+    ('Sincronía', 'Pasa los problemas de estado del Pokémon al rival.'), -- 25
+    ('Flaqueza', 'Aumenta el Ataque si el Pokémon recibe daño de un ataque fuerte.'), -- 26
+    ('Manto Frondoso', 'Reduce la precisión de los ataques en clima soleado.'); -- 27
 
 INSERT INTO Movimientos (nombre_movimiento, tipo_movimiento, potencia, puntos_poder, tipo_id)
 VALUES
-    ('Danza Espada', 'Estado', NULL, 20, 1), -- Movimiento de tipo Normal
+    -- Movimiento de tipo Normal
+    ('Danza Espada', 'Estado', NULL, 20, 1), 
     ('Hiperrayo', 'Especial', 150, 5, 1),
     ('Corte', 'Físico', 50, 30, 1),
     ('Ataque Rápido', 'Físico', 40, 30, 1),
     ('Placaje', 'Físico', 40, 35, 1),
-    ('Lanzallamas', 'Especial', 90, 15, 2),  -- Movimiento de tipo Fuego
+    -- Movimiento de tipo Fuego
+    ('Lanzallamas', 'Especial', 90, 15, 2),  
     ('Llamarada', 'Especial', 110, 5, 2),
     ('Giro Fuego', 'Especial', 35, 15, 2),
     ('Ascuas', 'Especial', 40, 25, 2),
     ('Sofoco', 'Especial', 130, 5, 2),
-    ('Surf', 'Especial', 90, 15, 3),         -- Movimiento de tipo Agua
-    ('Hidrobomba', 'Especial', 110, 5, 3),   -- Movimiento de tipo Agua
+    -- Movimiento de tipo Agua
+    ('Surf', 'Especial', 90, 15, 3),         
+    ('Hidrobomba', 'Especial', 110, 5, 3),
     ('Pistola Agua', 'Especial', 40, 25, 3),
     ('Aqua Jet', 'Físico', 40, 20, 3),
     ('Burbuja', 'Especial', 40, 30, 3),
     ('Pulso de Agua', 'Especial', 60, 20, 3),
-    ('Impactrueno', 'Especial', 40, 30, 4),  -- Movimiento de tipo Eléctrico
+    -- Movimiento de tipo Eléctrico
+    ('Impactrueno', 'Especial', 40, 30, 4),  
     ('Trueno', 'Especial', 110, 10, 4),
     ('Rayo', 'Especial', 90, 15, 4),
     ('Chispazo', 'Especial', 80, 15, 4),
     ('Onda Trueno', 'Estado', NULL, 20, 4),
     ('Voltio Cruel', 'Físico', 90, 15, 4),
-    ('Gigadrenado', 'Especial', 75, 10, 5),  -- Movimiento de tipo Planta
-    ('Hoja Afilada', 'Físico', 70, 20, 5),   -- Movimiento de tipo Planta
+    -- Movimiento de tipo Planta
+    ('Gigadrenado', 'Especial', 75, 10, 5),  
+    ('Hoja Afilada', 'Físico', 70, 20, 5),   
     ('Rayo Solar', 'Especial', 120, 10, 5),
     ('Latigazo', 'Físico', 120, 15, 5),
     ('Hoja Mágica', 'Especial', 60, 20, 5),
-    ('Absorber', 'Especial', 20, 25, 5),      -- Movimiento de tipo Eléctrico
-    ('Ventisca', 'Especial', 110, 5, 6),     -- Movimiento de tipo Hielo
-    ('Puño Hielo', 'Físico', 75, 15, 6),     -- Movimiento de tipo Hielo
+    ('Absorber', 'Especial', 20, 25, 5),
+    -- Movimiento de tipo Hielo
+    ('Ventisca', 'Especial', 110, 5, 6),     
+    ('Puño Hielo', 'Físico', 75, 15, 6),     
     ('Rayo Hielo', 'Especial', 90, 10, 6),
     ('Canto Helado', 'Físico', 65, 20, 6),
     ('Ventisca', 'Especial', 110, 5, 6),
     ('Vaho Gélido', 'Especial', 40, 30, 6),
-    ('Patada Baja', 'Físico', NULL, 20, 7),  -- Movimiento de tipo Lucha
+    -- Movimiento de tipo Lucha
+    ('Patada Baja', 'Físico', NULL, 20, 7),  
     ('Puño Dinámico', 'Físico', 100, 5, 7),
     ('Demolición', 'Físico', 75, 10, 7),
     ('Puño Cometa', 'Físico', 18, 15, 7),
     ('Patada Salto Alta', 'Físico', 130, 10, 7),
-    ('Bomba Lodo', 'Especial', 90, 10, 8),   -- Movimiento de tipo Veneno
+    -- Movimiento de tipo Veneno
+    ('Bomba Lodo', 'Especial', 90, 10, 8),   
     ('Ácido', 'Especial', 40, 30, 8),
     ('Bomba Lodo', 'Especial', 90, 10, 8),
     ('Cola Veneno', 'Físico', 50, 25, 8),
     ('Onda Tóxica', 'Especial', 95, 10, 8),
-    ('Terremoto', 'Físico', 100, 10, 9),     -- Movimiento de tipo Tierra
+    -- Movimiento de tipo Tierra
+    ('Terremoto', 'Físico', 100, 10, 9),     
     ('Terremoto', 'Físico', 100, 10, 9),
     ('Excavar', 'Físico', 80, 10, 9),
     ('Bucle Arena', 'Especial', 35, 15, 9),
@@ -528,61 +537,47 @@ VALUES
 
 INSERT INTO Entrenadores_Pokemon (Id_pokemon, entrenador_id)
 VALUES
--- Ash Ketchum (Entrenador 1)
+
 (1, 1),  -- Pikachu
 (2, 1),  -- Charizard
 (3, 1),  -- Bulbasaur
 (4, 1),  -- Squirtle
 (25, 1), -- Snorlax
--- Misty (Kasumi) (Entrenadora 2)
 (6, 2), -- Starmie
 (7, 2),  -- Psyduck
 (10, 2), -- Goldeen
--- Brock (Takeshi) (Entrenador 3)
 (11, 3),  -- Onix
 (12, 3),  -- Geodude
 (8, 3), -- Gyarados (anime)
--- Giovanni (Entrenador 4)
 (30, 4),  -- Arcanine
 (31, 4),  -- Gengar
 (8, 4), -- Gyarados
--- May (Haruka) (Entrenadora 5)
 (16, 5), -- Torchic
 (17, 5), -- Beautifly
 (24, 5), -- Mudkip
--- Dawn (Hikari) (Entrenadora 6)
 (18, 6), -- Piplup
 (20, 6), -- Pachirisu
 (19, 6), -- Buneary
--- Serena (Entrenadora 7)
 (36, 7), -- Sylveon
 (34, 7), -- Fennekin
--- Cynthia (Entrenadora 8)
 (38, 8), -- Garchomp
 (39, 8), -- Spiritomb
 (41, 8), -- Lucario
--- Leon (Entrenador 9)
 (2, 9),   -- Charizard
 (33, 9),  -- Pidgeot
--- Roxie (Entrenadora 10)
 (14, 10), -- Croagunk
--- Clair (Entrenadora 11)
 (8, 11), -- Gyarados
 (15, 11), -- Steelix
--- Korrina (Entrenadora 12)
 (41, 12), -- Lucario
--- Alain (Entrenador 13)
 (2, 13),   -- Charizard (Mega Charizard X)
--- N (Entrenador 14)
 (22, 14), -- Porygon-Z
--- Lusamine (Entrenadora 15)
 (42, 15); -- Milotic
 
 
 INSERT INTO Fortalezas (tipo_id, tipo_fuerte_contra)
 VALUES
 -- Normal
-(1, NULL), -- No tiene fortalezas
+(1, 19), -- No tiene fortalezas
 -- Fuego
 (2, 5), -- Fuerte contra Planta
 (2, 6), -- Fuerte contra Hielo
@@ -654,182 +649,141 @@ VALUES
 
 INSERT INTO Pokemon_Movimientos (pokemon_id, movimiento_id) 
 VALUES
-    -- Pikachu (Id_pokemon = 1)
+
     (1, 17),  -- Impactrueno
     (1, 18),  -- Trueno
     (1, 19),  -- Rayo
     (1, 21),  -- Onda Trueno
     (1, 22),  -- Voltio Cruel,
-    -- Charizard (Id_pokemon = 2)
     (2, 6),   -- Lanzallamas
     (2, 7),   -- Llamarada
     (2, 8),   -- Giro Fuego
     (2, 9),   -- Ascuas
     (2, 10),  -- Sofoco,
-    -- Bulbasaur (Id_pokemon = 3)
     (3, 25),  -- Gigadrenado
     (3, 26),  -- Hoja Afilada
     (3, 27),  -- Rayo Solar
     (3, 28),  -- Latigazo
     (3, 29),  -- Hoja Mágica,
-    -- Squirtle (Id_pokemon = 4)
     (4, 11),  -- Surf
     (4, 12),  -- Hidrobomba
     (4, 13),  -- Pistola Agua
     (4, 14),  -- Aqua Jet
     (4, 15),  -- Burbuja,
-    -- Greninja (Id_pokemon = 5)
     (5, 11),  -- Surf
     (5, 12),  -- Hidrobomba
     (5, 59),  -- Pulso Umbrío
     (5, 14),  -- Aqua Jet
     (5, 52),  -- Fuerza Telúrica,
-    -- Starmie (Id_pokemon = 6)
     (6, 11),  -- Surf
     (6, 12),  -- Hidrobomba
     (6, 13),  -- Pistola Agua
     (6, 16),  -- Pulso de Agua
     (6, 51),  -- Poder Pasado,
-    -- Psyduck (Id_pokemon = 7)
     (7, 11),  -- Surf
     (7, 13),  -- Pistola Agua
     (7, 16),  -- Pulso de Agua
     (7, 56),  -- Confusión
     (7, 57),  -- Garra Dragón,
-    -- Gyarados (Id_pokemon = 8)
     (8, 11),  -- Surf
     (8, 12),  -- Hidrobomba
     (8, 60),  -- Pulso Dragón
     (8, 58),  -- Avalancha
     (8, 52),  -- Fuerza Telúrica,
-    -- Togepi (Id_pokemon = 9)
     (9, 85),  -- Carantoña
     (9, 86),  -- Fuerza Lunar
     (9, 87),  -- Brillo Mágico,
-    -- Goldeen (Id_pokemon = 10)
     (10, 11),  -- Surf
     (10, 13),  -- Pistola Agua
     (10, 14),  -- Aqua Jet,
-    -- Onix (Id_pokemon = 11)
     (11, 53),  -- Terremoto
     (11, 58),  -- Avalancha
     (11, 54),  -- Lanzarrocas
     (11, 55),  -- Roca Afilada,
-    -- Geodude (Id_pokemon = 12)
     (12, 53),  -- Terremoto
     (12, 58),  -- Avalancha
     (12, 54),  -- Lanzarrocas
     (12, 55),  -- Roca Afilada,
-    -- Vulpix (Id_pokemon = 13)
     (13, 6),   -- Lanzallamas
     (13, 7),   -- Llamarada
     (13, 8),   -- Giro Fuego
     (13, 9),   -- Ascuas
     (13, 10),  -- Sofoco,
-    -- Croagunk (Id_pokemon = 14)
     (14, 72),  -- Bomba Lodo
     (14, 73),  -- Ácido
     (14, 74),  -- Cola Veneno
-    (14, 77),  -- Terremoto,
-    -- Steelix (Id_pokemon = 15)
+    (14, 77),  -- Terremoto
     (15, 53),  -- Terremoto
     (15, 58),  -- Avalancha
     (15, 54),  -- Lanzarrocas
-    (15, 55),  -- Roca Afilada,
-    -- Torchic (Id_pokemon = 16)
+    (15, 55),  -- Roca Afilada
     (16, 6),   -- Lanzallamas
     (16, 7),   -- Llamarada
     (16, 8),   -- Giro Fuego
     (16, 9),   -- Ascuas
-    (16, 10),  -- Sofoco,
-    -- Beautifly (Id_pokemon = 17)
+    (16, 10),  -- Sofoco
     (17, 66),  -- Picadura
     (17, 67),  -- Zumbido
     (17, 68),  -- Señuelo
-    (17, 69),  -- Tijera X,
-    -- Piplup (Id_pokemon = 18)
+    (17, 69),  -- Tijera X
     (18, 11),  -- Surf
     (18, 13),  -- Pistola Agua
     (18, 14),  -- Aqua Jet
     (18, 16),  -- Pulso de Agua,
-    -- Buneary (Id_pokemon = 19)
     (19, 4),   -- Ataque Rápido
     (19, 43),  -- Puño Cometa,
-    -- Pachirisu (Id_pokemon = 20)
     (20, 17),  -- Impactrueno
     (20, 18),  -- Trueno
     (20, 19),  -- Rayo
     (20, 21),  -- Onda Trueno,
-    -- Ambipom (Id_pokemon = 21)
     (21, 3),   -- Corte
     (21, 1),   -- Danza Espada,
-    -- Porygon-Z (Id_pokemon = 22)
     (22, 19),  -- Rayo
     (22, 61),  -- Enfado,
-    -- Skitty (Id_pokemon = 23)
     (23, 4),   -- Ataque Rápido
     (23, 5),   -- Placaje,
-    -- Mudkip (Id_pokemon = 24)
     (24, 11),  -- Surf
     (24, 13),  -- Pistola Agua
     (24, 14),  -- Aqua Jet,
-    -- Snorlax (Id_pokemon = 25)
     (25, 2),   -- Hiperrayo,
-    -- Lapras (Id_pokemon = 26)
     (26, 11),  -- Surf
     (26, 12),  -- Hidrobomba
     (26, 13),  -- Pistola Agua
     (26, 63),  -- Rayo Hielo,
-    -- Butterfree (Id_pokemon = 27)
     (27, 67),  -- Zumbido
-    (27, 68),  -- Señuelo,
-    -- Charmander (Id_pokemon = 28)
+    (27, 68),  -- Señuelo
     (28, 6),   -- Lanzallamas
     (28, 9),   -- Ascuas,
-    -- Blastoise (Id_pokemon = 29)
     (29, 11),  -- Surf
     (29, 12),  -- Hidrobomba,
-    -- Arcanine (Id_pokemon = 30)
     (30, 6),   -- Lanzallamas
     (30, 7),   -- Llamarada,
-    -- Gengar (Id_pokemon = 31)
     (31, 56),  -- Confusión
     (31, 82),  -- Bola Sombra,
-    -- Umbreon (Id_pokemon = 32)
     (32, 64),  -- Juego Sucio,
-    -- Pidgeot (Id_pokemon = 33)
     (33, 60),  -- Pulso Dragón,
-    -- Fennekin (Id_pokemon = 34)
     (34, 10),  -- Sofoco,
-    -- Pancham (Id_pokemon = 35)
     (35, 46),  -- Puño Dinámico,
-    -- Sylveon (Id_pokemon = 36)
     (36, 85),  -- Carantoña,
-    -- Absol (Id_pokemon = 37)
     (37, 64),  -- Juego Sucio,
-    -- Garchomp (Id_pokemon = 38)
     (38, 53),  -- Terremoto
     (38, 60),  -- Pulso Dragón
     (38, 61),  -- Enfado
-    -- Spiritomb (Id_pokemon = 39)
     (39, 82),  -- Bola Sombra
     (39, 64),  -- Juego Sucio
     (39, 56),  -- Confusión
     (39, 83),  -- Pulso Umbrío
-    (39, 84),  -- Maldición,
-    -- Roserade (Id_pokemon = 40)
+    (39, 84),  -- Maldición
     (40, 25),  -- Gigadrenado
     (40, 26),  -- Hoja Afilada
     (40, 27),  -- Rayo Solar
     (40, 28),  -- Latigazo
-    (40, 29),  -- Hoja Mágica,
-    -- Lucario (Id_pokemon = 41)
+    (40, 29),  -- Hoja Mágica
     (41, 1),   -- Danza Espada
     (41, 46),  -- Puño Dinámico
     (41, 48),  -- A Bocajarro
     (41, 44),  -- Golpe Karate
-    (41, 45),  -- Puño Incremento,
-    -- Milotic (Id_pokemon = 42)
+    (41, 45),  -- Puño Incremento
     (42, 11),  -- Surf
     (42, 12),  -- Hidrobomba
     (42, 13),  -- Pistola Agua
@@ -1108,42 +1062,40 @@ VALUES
 
 INSERT INTO Entrenadores_Peliculas (pelicula_id, entrenador_id)
 VALUES
-    -- Ash Ketchum aparece en la mayoría de las películas
-    (1, 1),  -- 'Pokémon: La Película' con Ash Ketchum
-    (2, 1),  -- 'Pokémon: El poder de todos' con Ash Ketchum
-    (3, 1),  -- 'Pokémon: Detective Pikachu' con Ash Ketchum
+    (1, 1),  
+    (2, 1),  
+    (3, 1),  
     (4, 1),  -- 'Pokémon: El viaje de los héroes' con Ash Ketchum
-    (5, 1),  -- 'Pokémon: Mewtwo contraataca' con Ash Ketchum
-    (6, 1),  -- 'Pokémon: La historia de Mewtwo' con Ash Ketchum
-    (7, 1),  -- 'Pokémon: Lucario y el misterio de Mew' con Ash Ketchum
-    (8, 1),  -- 'Pokémon: Genesect y el despertar de una leyenda' con Ash Ketchum
-    (9, 1),  -- 'Pokémon: El origen de Mewtwo' con Ash Ketchum
-    (10, 1), -- 'Pokémon: El destino de un maestro' con Ash Ketchum
-    -- Misty aparece en algunas películas clásicas
-    (1, 2),  -- 'Pokémon: La Película' con Misty
-    (4, 2),  -- 'Pokémon: El viaje de los héroes' con Misty
-    (2, 2),  -- 'Pokémon: El poder de todos' con Misty
-    (5, 2),  -- 'Pokémon: Mewtwo contraataca' con Misty
-    -- Brock también tiene presencia en películas
-    (1, 3),  -- 'Pokémon: La Película' con Brock
-    (2, 3),  -- 'Pokémon: El poder de todos' con Brock
-    (5, 3),  -- 'Pokémon: Mewtwo contraataca' con Brock
-    (7, 3),  -- 'Pokémon: Lucario y el misterio de Mew' con Brock
-    -- Giovanni y Mewtwo tienen una relación importante en estas películas
-    (5, 4),  -- 'Pokémon: Mewtwo contraataca' con Giovanni
-    (6, 4),  -- 'Pokémon: La historia de Mewtwo' con Giovanni
-    (9, 4),  -- 'Pokémon: El origen de Mewtwo' con Giovanni
-    (2, 4),  -- 'Pokémon: El poder de todos' con Giovanni
-    -- May aparece en varias películas
-    (4, 5),  -- 'Pokémon: El viaje de los héroes' con May
-    -- Dawn aparece en varias películas donde comparte protagonismo con Ash
-    (6, 6),  -- 'Pokémon: La historia de Mewtwo' con Dawn
-    (9, 6),  -- 'Pokémon: El origen de Mewtwo' con Dawn
-    -- Serena es otra compañera de Ash en películas más modernas
-    (7, 7),  -- 'Pokémon: Lucario y el misterio de Mew' con Serena
-    -- Cynthia es una de las protagonistas en películas recientes
-    (8, 8),  -- 'Pokémon: Genesect y el despertar de una leyenda' con Cynthia
-    (7, 8),  -- 'Pokémon: Lucario y el misterio de Mew' con Cynthia
-    -- Leon como campeón tiene su aparición en películas recientes
-    (10, 9), -- 'Pokémon: El destino de un maestro' con Leon
-    (7, 13);  -- 'Pokémon: Lucario y el misterio de Mew' con Alain
+    (5, 1),  -- 'Pokémon: Mewtwo contraataca' con Asum
+    (6, 1),  -- 'Pokémon: La historia de Mewtwo' contchum
+    (7, 1),  -- 'Pokémon: Lucario y el misterio de M Ash Ketchum
+    (8, 1),  -- 'Pokémon: Genesect y el despertar deyenda' con Ash Ketchum
+    (9, 1),  -- 'Pokémon: El origen de Mewtwo' con Ahum
+    (10, 1), -- 'Pokémon: El destino de un maestro'  Ketchum
+    (1, 2),  -- 'Pokémon: La Película' co
+    (4, 2),  -- 'Pokémon: El viaje de los héroes' co
+    (2, 2),  -- 'Pokémon: El poder de todos' 
+    (5, 2),  -- 'Pokémon: Mewtwo contraataca' 
+    -- Brock también tiene presencia en 
+    (1, 3),  -- 'Pokémon: La Película' 
+    (2, 3),  -- 'Pokémon: El poder de todos' 
+    (5, 3),  -- 'Pokémon: Mewtwo contraataca' 
+    (7, 3),  -- 'Pokémon: Lucario y el misterio de Mew' 
+    -- Giovanni y Mewtwo tienen una relación importante eelículas
+    (5, 4),  -- 'Pokémon: Mewtwo contraataca' con
+    (6, 4),  -- 'Pokémon: La historia de Mewtwo' con
+    (9, 4),  -- 'Pokémon: El origen de Mewtwo' con
+    (2, 4),  -- 'Pokémon: El poder de todos' con
+    -- May aparece en varias 
+    (4, 5),  -- 'Pokémon: El viaje de los héroes
+    -- Dawn aparece en varias películas donde comparte pro con Ash
+    (6, 6),  -- 'Pokémon: La historia de Mewtwo'
+    (9, 6),  -- 'Pokémon: El origen de Mewtwo'
+    -- Serena es otra compañera de Ash en películas más
+    (7, 7),  -- 'Pokémon: Lucario y el misterio de Mew' c
+    -- Cynthia es una de las protagonistas en películas 
+    (8, 8),  -- 'Pokémon: Genesect y el despertar de una con Cynthia
+    (7, 8),  -- 'Pokémon: Lucario y el misterio de Mew' ca
+    -- Leon como campeón tiene su aparición en películas 
+    (10, 9), -- 'Pokémon: El destino de un maestro'
+    (7, 13);  -- 'Pokémon: Lucario y el misterio de Mew' 
