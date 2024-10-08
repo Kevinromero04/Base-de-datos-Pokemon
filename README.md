@@ -95,7 +95,7 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más 
 ## Contacto
 
 Para más información, contacta a [Micorreo](kevinromerorincon7@gmail.com).
-
+Para más información, contacta a [Micorreo](santiagopinzoncruz@gmail.com).
 ---
 ```
 
