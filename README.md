@@ -94,8 +94,8 @@ Si deseas contribuir a este proyecto, no dudes en abrir un issue o enviar un pul
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 ## Contacto
 
-Para más información, contacta a [Micorreo](kevinromerorincon7@gmail.com).
-Para más información, contacta a [Micorreo](santiagopinzoncruz@gmail.com).
+Para más información, contacta a [Micorreo](kevinromerorincon7@gmail.com), 
+[Segundo Correo](santiagopinzoncruz@gmail.com).
 ---
 ```
 
